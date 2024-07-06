@@ -1,0 +1,5 @@
+import "qstdlib.pseudoinclude" as stdlib;
+import "qmath.pseudoinclude" as math;
+var __rdc__ = try{redirCalls(this, "quantum.pseudocode");}catch{__qasm__(QARRPAR 0);redirCalls(this, "quantum.pseudocode");unentangleNextLine;}
+__rdc__.qParticleArrange(empty);
+this = __rdc__;
